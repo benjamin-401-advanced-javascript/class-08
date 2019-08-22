@@ -1,7 +1,6 @@
 'use strict';
 
 require('dotenv').config();
-console.log(process.env.MONGODB_URI, process.env.PORT)
 const mongoose = require('mongoose');
 
 const mongooseOptions = {
